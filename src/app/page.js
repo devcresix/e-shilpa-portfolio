@@ -1,60 +1,93 @@
 import Script from "next/script";
 //= Scripts
-import generateStylesheetObject from '@/common/generateStylesheetsObject';
+import generateStylesheetObject from "@/common/generateStylesheetsObject";
 //= Common Components
 import LoadingScreen from "@/components/Common/Loader";
-import Cursor from "@/components/Common/Cursor";
-import ProgressScroll from "@/components/Common/ProgressScroll";
+import MouseCursor from "@/components/Common/MouseCursor";
+import ScrollToTop from "@/components/Common/ScrollToTop";
 //= Page Components
-import Navbar from "@/components/Preview/Navbar";
-import Overlay from "@/components/Preview/Overlay";
-import Header from "@/components/Preview/Header";
-import Demos from "@/components/Preview/Demos";
-import Marq from "@/components/Preview/Marq";
-import Pages from "@/components/Preview/Pages";
-import ShopPages from "@/components/Preview/ShopPages";
-import CallToAction from "@/components/Preview/CallToAction";
-import Footer from "@/components/Preview/Footer";
-import ThemeSwitcher from "@/components/Common/ThemeSwitcher";
+import Navbar from "@/components/CreativeAgency/Navbar";
+import Header from "@/components/CreativeAgency/Header";
+import About from "@/components/CreativeAgency/About";
+import Services from "@/components/CreativeAgency/Services";
+import Portfolio from "@/components/CreativeAgency/Portfolio";
+import Awards from "@/components/CreativeAgency/Awards";
+import Video from "@/components/CreativeAgency/Video";
+import Contact from "@/components/CreativeAgency/Contact";
+import Partners from "@/components/CreativeAgency/Partners";
+import Team from "@/components/CreativeAgency/Team";
+import DiscussWrapper from "@/components/CreativeAgency/DiscussWrapper";
+import Testimonials from "@/components/CreativeAgency/Testimonials";
+import Blog from "@/components/CreativeAgency/Blog";
+import Footer from "@/components/CreativeAgency/Footer";
 
 export const metadata = {
-  title: 'Swak - Preview',
+  title: "Swak - Creative Agency",
   icons: {
-    icon: "/landing-preview/img/fav.png",
-    shortcut: "/landing-preview/img/fav.png",
+    icon: "/home_5/assets/img/fav.png",
+    shortcut: "/home_5/assets/img/fav.png",
     other: generateStylesheetObject([
-      '/landing-preview/css/plugins.css',
-      '/landing-preview/css/style.css',
-      '/landing-preview/css/preview-style.css',
-    ])
-  }
-}
+      "/common/assets/css/lib/bootstrap.min.css",
+      "/common/assets/css/lib/all.min.css",
+      "/common/assets/css/lib/line-awesome.css",
+      "/common/assets/css/lib/themify-icons.css",
+      "/common/assets/css/lib/ionicons.css",
+      "/common/assets/css/lib/animate.css",
+      "/common/assets/css/lib/swiper8.min.css",
+      "/common/assets/css/common_style.css",
+      "/home_5/assets/css/home_5_style.css",
+    ]),
+  },
+};
 
-export default function Preview() {
+export default function Home5() {
   return (
-    <body className="dark-theme">
+    <body className="home-style5 dark-theme">
       <LoadingScreen />
-      <Cursor />
-      <ProgressScroll />
-
-      <Navbar />
-      <Overlay />
-      <main>
+      {/* Page Components */}
+      <div id="scrollsmoother-container">
+        <Navbar />
         <Header />
-        <Demos />
-        <Marq />
-        <Pages />
-        <ShopPages />
-        <CallToAction />
+        <main>
+          <About />
+          <Services />
+          <Portfolio />
+          <Awards />
+          <Video />
+          <Contact />
+          <Partners />
+          <Team />
+          <DiscussWrapper />
+          <Testimonials />
+          <Blog />
+        </main>
         <Footer />
-      </main>
-      <ThemeSwitcher />
-
-      <Script src="/landing-preview/js/bootstrap.bundle.min.js" strategy="lazyOnload" />
-      <Script src="/landing-preview/js/wow.min.js" strategy="lazyOnload" />
-      <Script src="/landing-preview/js/gsap.min.js" strategy="lazyOnload" />
-      <Script src="/landing-preview/js/ScrollTrigger.min.js" strategy="lazyOnload" />
-      <Script src="/landing-preview/js/plugins.js" strategy="lazyOnload" />
+      </div>
+      <MouseCursor />
+      <ScrollToTop />
+      {/* Page Scripts */}
+      <Script
+        src="/common/assets/js/lib/bootstrap.bundle.min.js"
+        strategy="lazyOnload"
+      />
+      <Script
+        src="/common/assets/js/gsap_lib/gsap.min.js"
+        strategy="lazyOnload"
+      />
+      <Script
+        src="/common/assets/js/gsap_lib/ScrollSmoother.min.js"
+        strategy="lazyOnload"
+      />
+      <Script
+        src="/common/assets/js/gsap_lib/ScrollTrigger.min.js"
+        strategy="lazyOnload"
+      />
+      <Script
+        src="/common/assets/js/gsap_lib/SplitText.min.js"
+        strategy="lazyOnload"
+      />
+      <Script src="/common/assets/js/common_js.js" strategy="lazyOnload" />
+      <Script src="/home_5/assets/js/home_5_scripts.js" strategy="lazyOnload" />
     </body>
-  )
+  );
 }
