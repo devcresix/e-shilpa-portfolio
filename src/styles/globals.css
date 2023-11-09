@@ -7,7 +7,7 @@ body {
 }
 
 .lg-backdrop {
-  background-color: rgba(0, 0, 0, 0.8)!important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
 .tc-video-style5 .play-btn {
@@ -26,4 +26,10 @@ body {
 
 .tc-awards-slider6 .swiper {
   overflow: visible !important;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure the navbar is above other elements */
 }
