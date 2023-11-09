@@ -1,15 +1,18 @@
-import React from 'react';
+import React from "react";
 //= Static Data
-import data from '@/data/CreativeAgency/awards.json';
+import data from "@/data/CreativeAgency/awards.json";
 
 function Awards() {
   return (
-    <section className="tc-awards-style5">
+    <section className="tc-awards-style5" id="qualifications">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="section-title text-center mb-70 js-splittext-lines">
-              <p className="fsz-14 text-uppercase color-666 mb-20"> awards </p>
+              <p className="fsz-14 text-uppercase color-666 mb-20">
+                {" "}
+                qualifications{" "}
+              </p>
               <h2 className="fsz-50 mb-40"> Multiple rewards </h2>
             </div>
           </div>
@@ -28,7 +31,7 @@ function Awards() {
               </div>
             </div>
           </div>
-          {data.map(item => (
+          {data.map((item) => (
             <a href="#" className="card-row js-splittext-lines" key={item.id}>
               <div className="row">
                 <div className="col-lg-3">
@@ -52,14 +55,20 @@ function Awards() {
         <div className="text-center mt-80">
           <div className="button_su border-0">
             <span className="su_button_circle bg-orange1 desplode-circle"></span>
-            <a href="#" className="butn text-capitalize border-1 border-dark border button_su_inner bg-transparent hover-white py-3 px-5">
-              <span className="button_text_container fsz-14"> Show More <i className="fal fa-chevron-down ms-1"></i> </span>
+            <a
+              href="#"
+              className="butn text-capitalize border-1 border-dark border button_su_inner bg-transparent hover-white py-3 px-5"
+            >
+              <span className="button_text_container fsz-14">
+                {" "}
+                Show More <i className="fal fa-chevron-down ms-1"></i>{" "}
+              </span>
             </a>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Awards
+export default Awards;

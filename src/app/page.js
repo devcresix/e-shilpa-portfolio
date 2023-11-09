@@ -48,7 +48,7 @@ export default function Home5() {
       <div id="scrollsmoother-container">
         <Navbar />
         <Header />
-        <main>
+        <main id="home">
           <About />
           <Services />
           <Portfolio />

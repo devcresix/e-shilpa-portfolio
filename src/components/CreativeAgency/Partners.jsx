@@ -1,10 +1,10 @@
-'use client';
-import React from 'react';
+"use client";
+import React from "react";
 //= Modules
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
 //= Static Data
-import data from '@/data/CreativeAgency/partners.json';
+import data from "@/data/CreativeAgency/partners.json";
 
 const swiperOptions = {
   modules: [Autoplay],
@@ -32,13 +32,13 @@ const swiperOptions = {
     },
     1200: {
       slidesPerView: 5,
-    }
-  }
-}
+    },
+  },
+};
 
 function Partners() {
   return (
-    <div className="tc-partners-style5">
+    <div className="tc-partners-style5" id="collaborations">
       <div className="container">
         <div className="logos-slider5">
           <Swiper {...swiperOptions}>
@@ -53,7 +53,7 @@ function Partners() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Partners;

@@ -1,11 +1,11 @@
 "use client";
-import React from 'react';
+import React from "react";
 //= Modules
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Keyboard } from 'swiper';
-import LightGallery from 'lightgallery/react';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Keyboard } from "swiper";
+import LightGallery from "lightgallery/react";
 //= Static Data
-import data from '@/data/CreativeAgency/portfolio.json';
+import data from "@/data/CreativeAgency/portfolio.json";
 
 const swiperOptions = {
   modules: [Navigation, Pagination, Keyboard],
@@ -17,8 +17,8 @@ const swiperOptions = {
     clickable: true,
   },
   navigation: {
-    nextEl: '.tc-portfolio-slider5 .swiper-button-next',
-    prevEl: '.tc-portfolio-slider5 .swiper-button-prev',
+    nextEl: ".tc-portfolio-slider5 .swiper-button-next",
+    prevEl: ".tc-portfolio-slider5 .swiper-button-prev",
   },
   mousewheel: false,
   keyboard: true,
@@ -39,33 +39,39 @@ const swiperOptions = {
     },
     1200: {
       slidesPerView: 2,
-    }
-  }
-}
+    },
+  },
+};
 
 function Portfolio() {
   function openGallery(event, index) {
     event.preventDefault();
-    let items = document.querySelector('.lg-react-element').children;
+    let items = document.querySelector(".lg-react-element").children;
     items[index].click();
   }
 
   return (
-    <section className="tc-portfolio-style5">
+    <section className="tc-portfolio-style5" id="works">
       <div className="container">
         <div className="title js-splittext-lines">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="section-title mb-70">
-                <p className="fsz-14 text-uppercase color-666 mb-20"> portfolio </p>
+                <p className="fsz-14 text-uppercase color-666 mb-20"> works </p>
                 <h2 className="fsz-50"> Creative works </h2>
               </div>
             </div>
             <div className="col-lg-6 mt-4 mt-lg-0 text-lg-end">
               <div className="button_su border-0">
                 <span className="su_button_circle bg-orange1 desplode-circle"></span>
-                <a href="#" className="butn text-uppercase border-1 border-dark border button_su_inner bg-transparent hover-white py-3 px-5">
-                  <span className="button_text_container fsz-14"> All works </span>
+                <a
+                  href="#"
+                  className="butn text-uppercase border-1 border-dark border button_su_inner bg-transparent hover-white py-3 px-5"
+                >
+                  <span className="button_text_container fsz-14">
+                    {" "}
+                    All works{" "}
+                  </span>
                 </a>
               </div>
             </div>
@@ -76,13 +82,23 @@ function Portfolio() {
             {data.map((item, index) => (
               <SwiperSlide key={item.id}>
                 <div className="portfolio-card">
-                  <a href={item.image} className="img img-cover" onClick={(e) => openGallery(e, index)}>
+                  <a
+                    href={item.image}
+                    className="img img-cover"
+                    onClick={(e) => openGallery(e, index)}
+                  >
                     <img src={item.image} alt="" />
-                    <span className="icon"> <i className="ti-arrow-top-right"></i> </span>
+                    <span className="icon">
+                      {" "}
+                      <i className="ti-arrow-top-right"></i>{" "}
+                    </span>
                   </a>
                   <div className="info pt-30">
-                    <a href="#" className="fsz-30 fw-600 mb-10 hover-orange1"> {item.title} </a>
-                    <p className="fsz-14 color-999"> {item.tags}  </p>
+                    <a href="#" className="fsz-30 fw-600 mb-10 hover-orange1">
+                      {" "}
+                      {item.title}{" "}
+                    </a>
+                    <p className="fsz-14 color-999"> {item.tags} </p>
                   </div>
                 </div>
               </SwiperSlide>
@@ -101,7 +117,7 @@ function Portfolio() {
         ))}
       </LightGallery>
     </section>
-  )
+  );
 }
 
 export default Portfolio;
