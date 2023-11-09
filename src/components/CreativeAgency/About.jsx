@@ -17,7 +17,7 @@ function About() {
                       </path>
                     </defs>
                     <text>
-                      <textPath xlinkHref="#textcircle" textLength="900"> . read more about us . Swak agency </textPath>
+                      <textPath xlinkHref="#textcircle" textLength="900">Tech Adventures for Little Explorers. </textPath>
                     </text>
                   </svg>
                 </a>
@@ -28,8 +28,8 @@ function About() {
           <div className="col-lg-6">
             <div className="info ps-lg-5 js-splittext-lines">
               <p className="fsz-14 text-uppercase color-666 mb-20"> About Us </p>
-              <h2 className="fsz-50 mb-40"> We’re challengers at heart & builders </h2>
-              <div className="text fsz-16 color-666 mb-50"> Swak Agency is a small startup agency. We help businesses elevate their value  through custom software development, product design, QA and consultancy services. </div>
+              <h2 className="fsz-50 mb-40"> Unlocking the Future with ICT and Robotics</h2>
+              <div className="text fsz-16 color-666 mb-50">Cultivate innovation with our ICT and robotics education services. We empower students to embrace technology, fostering creativity and problem-solving for tomorrow's leaders.</div>
               <a href="#" className="numb-card d-block pb-30 mb-30 border-1 border-bottom">
                 <div className="row">
                   <div className="col-10">
