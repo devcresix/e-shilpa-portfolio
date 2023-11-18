@@ -21,13 +21,13 @@ function Awards() {
           <div className="title-row d-none d-lg-block js-splittext-lines">
             <div className="row">
               <div className="col-lg-3">
-                <p> hosted </p>
+                <p>  </p>
               </div>
               <div className="col-lg-7">
-                <p> Award </p>
+                <p> </p>
               </div>
-              <div className="col-lg-2 text-lg-end">
-                <p> year </p>
+              <div className="col-lg-3 text-lg-end">
+                <p></p>
               </div>
             </div>
           </div>
@@ -55,15 +55,6 @@ function Awards() {
         <div className="text-center mt-80">
           <div className="button_su border-0">
             <span className="su_button_circle bg-orange1 desplode-circle"></span>
-            <a
-              href="#"
-              className="butn text-capitalize border-1 border-dark border button_su_inner bg-transparent hover-white py-3 px-5"
-            >
-              <span className="button_text_container fsz-14">
-                {" "}
-                Show More <i className="fal fa-chevron-down ms-1"></i>{" "}
-              </span>
-            </a>
           </div>
         </div>
       </div>

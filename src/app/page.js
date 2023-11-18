@@ -53,7 +53,6 @@ export default function Home5() {
           <Awards />
           <Services />
           <Portfolio />
-          
           <Video />
           <Contact />
           <Partners />

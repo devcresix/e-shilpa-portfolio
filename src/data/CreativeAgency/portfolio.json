@@ -1,20 +1,26 @@
 [
   {
     "id": 1,
-    "image": "/home_5/assets/img/work1.png",
-    "title": "Newz - eMagazine Website",
-    "tags": "Branding, Web Design, Photography"
+    "image": "/home_5/assets/img/theorycls.jpg",
+    "title": "Theory Classes",
+    "tags": "ICT, Robotics & Programming theory classes"
   },
   {
     "id": 2,
-    "image": "/home_5/assets/img/work2.png",
-    "title": "Mails Manage Mobile App",
-    "tags": "Mobile App Design"
+    "image": "/home_5/assets/img/workshop.jpg",
+    "title": "Work-Shops",
+    "tags": "Robotics & Programming workshops"
   },
   {
     "id": 3,
-    "image": "/home_5/assets/img/work3.png",
-    "title": "Mails Manage Mobile App",
-    "tags": "Mobile App Design"
+    "image": "/home_5/assets/img/seminas.jpg",
+    "title": "Seminars",
+    "tags": "Wisdom Dissemination via seminars"
+  },
+  {
+    "id": 1,
+    "image": "/home_5/assets/img/parentsmtn.jpg",
+    "title": "Parent Meetings",
+    "tags": "Getting engaged with parents"
   }
 ]
