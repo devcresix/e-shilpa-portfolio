@@ -58,7 +58,7 @@ function Portfolio() {
             <div className="col-lg-6">
               <div className="section-title mb-70">
                 <p className="fsz-14 text-uppercase color-666 mb-20"> works </p>
-                <h2 className="fsz-50"> Creative works </h2>
+                <h2 className="fsz-50"> Our Achievements </h2>
               </div>
             </div>
             <div className="col-lg-6 mt-4 mt-lg-0 text-lg-end">

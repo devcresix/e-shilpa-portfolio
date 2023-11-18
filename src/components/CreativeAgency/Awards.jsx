@@ -13,7 +13,7 @@ function Awards() {
                 {" "}
                 qualifications{" "}
               </p>
-              <h2 className="fsz-50 mb-40"> Multiple rewards </h2>
+              <h2 className="fsz-50 mb-40"> Teaching Background</h2>
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ function Awards() {
                 </div>
                 <div className="col-lg-3">
                   <div className="img">
-                    <img src="/home_5/assets/img/reward.png" alt="" />
+                    <img src="/home_5/assets/img/" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-2 mt-3 mt-lg-0 text-lg-end">

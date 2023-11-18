@@ -8,7 +8,7 @@ function About() {
           <div className="col-lg-6">
             <div className="img">
               <img
-                src="/home_5/assets/img/about.jpg"
+                src="/home_5/assets/img/person1.jpg"
                 alt=""
                 className="main-img wow zoomIn slow"
               />
@@ -39,7 +39,7 @@ function About() {
             <div className="info ps-lg-5 js-splittext-lines">
               <p className="fsz-14 text-uppercase color-666 mb-20">
                 {" "}
-                About Us{" "}
+                About Me{" "}
               </p>
               <h2 className="fsz-50 mb-40">
                 {" "}
@@ -59,11 +59,11 @@ function About() {
                     <div className="cont d-flex">
                       <h3 className="color-orange1 fsz-45 me-20 flex-shrink-0 fw-500">
                         {" "}
-                        85%{" "}
+                        95%{" "}
                       </h3>
                       <p>
                         {" "}
-                        happy customers <br /> & repeating{" "}
+                        O/L ICT <br /> Results{" "}
                       </p>
                     </div>
                   </div>
@@ -81,11 +81,11 @@ function About() {
                     <div className="cont d-flex">
                       <h3 className="color-orange1 fsz-45 me-20 flex-shrink-0 fw-500">
                         {" "}
-                        352+{" "}
+                        1000+{" "}
                       </h3>
                       <p>
                         {" "}
-                        projects completed on <br /> over 20 countries{" "}
+                        Students<br /> Over 6 years{" "}
                       </p>
                     </div>
                   </div>

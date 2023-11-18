@@ -50,9 +50,10 @@ export default function Home5() {
         <Header />
         <main id="home">
           <About />
+          <Awards />
           <Services />
           <Portfolio />
-          <Awards />
+          
           <Video />
           <Contact />
           <Partners />
