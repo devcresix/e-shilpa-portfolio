@@ -11,9 +11,9 @@ function Services() {
             <div className="section-title text-center mb-70 js-splittext-lines">
               <p className="fsz-14 text-uppercase color-666 mb-20">
                 {" "}
-                learningss{" "}
+                learnings{" "}
               </p>
-              <h2 className="fsz-50 mb-40"> We produce quality solutions </h2>
+              <h2 className="fsz-50 mb-40"> Embarking on the Path of Learning</h2>
             </div>
           </div>
         </div>

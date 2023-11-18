@@ -1,11 +1,12 @@
 /* ========= [ * page-home_3 ]  =========*/ /* --------------- footer style5 --------------- */
 .tc-navbar-style5 {
-  padding: 30px 0;
-  position: absolute;
+  padding: 10px 0;
   left: 0;
-  top: 0;
   width: 100%;
-  background: transparent;
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+  background-color: #222;
 }
 .tc-navbar-style5 .navbar-nav .nav-item .nav-link {
   font-size: 14px;
@@ -22,8 +23,8 @@
 /* --------------- footer style5 --------------- */
 .tc-header-style5 {
   position: relative;
-  padding-top: 400px;
-  padding-bottom: 120px;
+  padding-top: 100px;
+  
   border-radius: 0 0 30px 30px;
   overflow: hidden;
   z-index: 20;
@@ -832,7 +833,7 @@
   display: none;
 }
 .home-style5.dark-theme .dr_item {
-  display: block;
+  display:flex;
 }
 .home-style5.dark-theme .tc-header-style5,
 .home-style5.dark-theme .tc-services-style5,
@@ -880,4 +881,11 @@
 .home-style5.dark-theme .tc-contact-style5 .contact-form {
   -webkit-box-shadow: 0px 41px 81px 0px rgba(250, 250, 250, 0.04);
           box-shadow: 0px 41px 81px 0px rgba(250, 250, 250, 0.04);
+}
+
+@media (max-width: 767px) {
+  .mobile-logo {
+    max-width: 50% !important; /* Adjust the percentage as needed */
+    height: auto;
+  }
 }

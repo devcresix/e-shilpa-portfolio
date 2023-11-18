@@ -4,21 +4,15 @@ import Link from "next/link";
 function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-light tc-navbar-style5"
-      style={{
-        position: "sticky",
-        top: 0,
-        zIndex: 1000,
-        backgroundColor: "rgba(0, 0, 0, 0.8)",
-      }}
+      className="navbar navbar-expand-lg navbar-dark tc-navbar-style5"
+
     >
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src="/home_5/assets/img/logo.png" alt="" className="lt_item" />
           <img
-            src="/home_5/assets/img/logo_lt.png"
+            src="/home_5/assets/img/eshilpalogo.png"
             alt=""
-            className="dr_item"
+            className="dr_item mobile-logo"
           />
         </a>
         <button
