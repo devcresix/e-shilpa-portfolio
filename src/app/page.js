@@ -56,7 +56,6 @@ export default function Home5() {
           <Video />
           <Contact />
           <Partners />
-          <Team />
           <DiscussWrapper />
           <Testimonials />
           <Blog />

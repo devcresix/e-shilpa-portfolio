@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "host": "Sipvidu - Gampaha",
+    "award": "Grade 6 (New)",
+    "year": "Friday - 5.00 - 6.30 pm"
+  },
+  {
+    "id": 2,
+    "host": "",
+    "award": "Grade 6",
+    "year": "Tuesday - 4.30 - 6.00 pm"
+  },
+  {
+    "id": 3,
+    "host": "",
+    "award": "Grade 7",
+    "year": "Thursday - 3.00 - 4.30 pm"
+  },
+  {
+    "id": 4,
+    "host": "",
+    "award": "Grade 8",
+    "year": "Sunday - 2.00 - 3.45 pm"
+  },
+  {
+    "id": 5,
+    "host": "",
+    "award": "Grade 9",
+    "year": "Sunday - 4.00 - 6.00 pm"
+  },
+  {
+    "id": 6,
+    "host": "",
+    "award": "Grade 10A",
+    "year": "Friday - 3.00 - 5.00 pm"
+  },
+  {
+    "id": 7,
+    "host": "",
+    "award": "Grade 10B",
+    "year": "Tuesday - 2.30 - .30 pm"
+  },
+
+
+  {
+    "id": 8,
+    "host": "Kiribathgoda",
+    "award": "External Lecture (Zahira College, Colombo) ",
+    "year": "2022 - Now"
+  },
+  {
+    "id": 9,
+    "host": "",
+    "award": "Mechanical Engineer (CEAT Privat Limited)",
+    "year": "2022-2023"
+  },
+  {
+    "id": 10,
+    "host": "",
+    "award": "Science For Technology (Physics) I",
+    "year": "ISBN 978-624-93104-2-1"
+  },
+  {
+    "id": 11,
+    "host": "",
+    "award": "Science For Technology (Chemestry) I",
+    "year": "ISBN 978-624-93104-1-4"
+  },
+  {
+    "id": 12,
+    "host": "",
+    "award": "Science For Technology (Chemestry) II",
+    "year": "ISBN 978-624-93104-0-7"
+  },
+  {
+    "id": 13,
+    "host": "",
+    "award": "Science For Technology (Chemestry) II",
+    "year": "ISBN 978-624-93104-0-7"
+  },
+  {
+    "id": 14,
+    "host": "",
+    "award": "Science For Technology (Chemestry) II",
+    "year": "ISBN 978-624-93104-0-7"
+  }
+]

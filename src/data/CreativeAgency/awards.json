@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "host": "Experience -",
-    "award": "ICT Teacher (Zahira College, Colombo) ",
+    "host": "Experience - ",
+    "award": "External Lecture (Zahira College, Colombo) ",
     "year": "2022 - Now"
   },
   {
@@ -14,19 +14,19 @@
   {
     "id": 3,
     "host": "Books Published -",
-    "award": "Book 1",
-    "year": "2020"
+    "award": "Science For Technology (Physics) I",
+    "year": "ISBN 978-624-93104-2-1"
   },
   {
     "id": 4,
     "host": "",
-    "award": "Book 2",
-    "year": "2022"
+    "award": "Science For Technology (Chemestry) I",
+    "year": "ISBN 978-624-93104-1-4"
   },
   {
     "id": 5,
     "host": "",
-    "award": "Book 3",
-    "year": "2023"
+    "award": "Science For Technology (Chemestry) II",
+    "year": "ISBN 978-624-93104-0-7"
   }
 ]
