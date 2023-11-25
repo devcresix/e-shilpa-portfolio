@@ -46,7 +46,7 @@ function Awards() {
                   </div>
                 </div>
                 <div className="col-lg-2 mt-3 mt-lg-0 text-lg-end">
-                  <p className="fsz-16"> {item.year} </p>
+                  <p className="fsz-14"> {item.year} </p>
                 </div>
               </div>
             </a>

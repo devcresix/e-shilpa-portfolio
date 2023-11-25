@@ -522,7 +522,7 @@
 }
 /* --------------- partners style5 --------------- */
 .tc-partners-style5 {
-  padding: 150px 0;
+  padding: 500px 0;
   overflow: hidden;
 }
 .tc-partners-style5 .logos-slider5 .swiper-wrapper {
@@ -889,3 +889,11 @@
     height: auto;
   }
 }
+
+.contact-form{
+  margin-left: 5px;
+}
+
+
+
+
