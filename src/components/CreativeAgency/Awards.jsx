@@ -4,7 +4,7 @@ import data from "@/data/CreativeAgency/awards.json";
 
 function Awards() {
   return (
-    <section className="tc-awards-style5" id="qualifications">
+    <section className="my-contact-section tc-awards-style5" id="qualifications">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">
@@ -32,7 +32,7 @@ function Awards() {
             </div>
           </div>
           {data.map((item) => (
-            <a href="#" className="card-row js-splittext-lines" key={item.id}>
+            <a href="#" className="my-card-row card-row js-splittext-lines" key={item.id}>
               <div className="row">
                 <div className="col-lg-3">
                   <p className="fsz-16 text-uppercase"> {item.host} </p>

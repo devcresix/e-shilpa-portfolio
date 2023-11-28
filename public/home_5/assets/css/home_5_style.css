@@ -351,7 +351,12 @@
   border-bottom: 1px solid rgba(153, 153, 153, 0.3333333333);
   height: 75px;
 }
-.tc-awards-style5 .card-row:hover {
+
+.tc-awards-style5 .card-row:hover{
+  border-bottom: 1px solid var(--color-orange1);
+  color: #fff;
+}
+.my-contact-section .my-card-row:hover{
   background-color: var(--color-orange1);
   border-bottom: 1px solid var(--color-orange1);
   color: #fff;
@@ -522,7 +527,7 @@
 }
 /* --------------- partners style5 --------------- */
 .tc-partners-style5 {
-  padding: 500px 0;
+  padding: 100px 0;
   overflow: hidden;
 }
 .tc-partners-style5 .logos-slider5 .swiper-wrapper {
@@ -893,6 +898,8 @@
 .contact-form{
   margin-left: 5px;
 }
+
+
 
 
 
