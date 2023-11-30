@@ -3,7 +3,7 @@ import data from "@/data/CreativeAgency/contact.json";
 
 function Contact() {
   return (
-    <section className="tc-awards-style5" id="qualifications">
+    <section className=" tc-awards-style5 " id="qualifications">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">
