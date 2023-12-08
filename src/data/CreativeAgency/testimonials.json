@@ -1,29 +1,27 @@
 [
   {
     "id": 1,
-    "logo": "/home_5/assets/img/logos/noxes.png",
-    "picture": "/home_5/assets/img/team1.jpg",
-    "content": "“Swak a studio with passionate, professional and full creativity. A much more than what i’m expect great services, high quality product & affordable price. “",
-    "author": "Gordon D. Gowsi",
-    "position": "CEO",
-    "project": "Zumar"
+    "content": "“I'm Shanilka Sathsara in the Grade 6 IT class. Beyond the syllabus, I eagerly learned a lot, especially about robotic technology. I successfully made a robot car with Sir's encouragement and guidance. Grateful to join!“",
+    "author": "Gordon D. Gowsi"
+    
   },
   {
     "id": 2,
-    "logo": "/home_5/assets/img/logos/noxes.png",
-    "picture": "/home_5/assets/img/team2.jpg",
-    "content": "“Swak a studio with passionate, professional and full creativity. A much more than what i’m expect great services, high quality product & affordable price. “",
-    "author": "Limbo N. Nelson",
-    "position": "CEO",
-    "project": "Zumar"
+    "content": "“Dear Sir, I'm Thamindu. Your ICT class was an exhilarating journey, blending dynamic lessons and hands-on activities. Your passion for ICT, unwavering support, and encouragement made learning enjoyable. Grateful for your dedication.“",
+    "author": "Limbo N. Nelson"
+    
   },
   {
     "id": 3,
-    "logo": "/home_5/assets/img/logos/noxes.png",
-    "picture": "/home_5/assets/img/team1.jpg",
-    "content": "“Swak a studio with passionate, professional and full creativity. A much more than what i’m expect great services, high quality product & affordable price. “",
-    "author": "Miranda H. Halim",
-    "position": "CEO",
-    "project": "Zumar"
+    "content": "“Thank you very much, Prabuddha sir, for skillfully guiding me to an 'A' in ICT. Your excellent teaching and invaluable guidance were instrumental. Grateful for practical knowledge beyond the syllabus. Thank you, sir.“",
+    "author": "Miranda H. Halim"
+    
+  },
+
+  {
+    "id": 4,
+    "content": "“Initially disliking ICT from grades 6 to 9, I later discovered its value. Despite choosing it for O/Ls due to parental influence, PRABUDDHA Sir's class transformed it into my favourite subject. Grateful for easy-to-understand teachings and for achieving top marks.“",
+    "author": "Miranda H. Halim"
+    
   }
 ]

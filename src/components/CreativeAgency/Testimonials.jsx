@@ -68,11 +68,11 @@ function Testimonials() {
                 <div className="text mb-90 fsz-20"> {item.content} </div>
                 <div className="client-card d-flex align-items-center">
                   <div className="img icon-45 rounded-circle overflow-hidden img-cover me-3">
-                    <img src={item.picture} alt="" />
+
                   </div>
                   <div className="inf">
                     <h6 className="fsz-16 fw-500 mb-1"> {item.name} </h6>
-                    <p className="fsz-14 color-666"> {item.position} of <a href="#" className="color-orange1"> {item.project} </a> </p>
+                    <p className="fsz-14 color-666"> {item.position} <a href="#" className="color-orange1"> {item.project} </a> </p>
                   </div>
                 </div>
               </div>
