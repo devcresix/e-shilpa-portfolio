@@ -8,8 +8,8 @@ function Blog() {
     <section className="tc-blog-style5" id="news">
       <div className="container">
         <div className="section-title text-center js-splittext-lines">
-          <p className="fsz-14 text-uppercase color-666 mb-20"> insights </p>
-          <h2 className="fsz-50 mb-40"> Company news & update </h2>
+          <p className="fsz-14 text-uppercase color-666 mb-20"> NEWS & UPDATE</p>
+          <h2 className="fsz-50 mb-40"> Upcoming Activities  </h2>
         </div>
         <div className="row">
           {data.map((item) => (
