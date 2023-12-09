@@ -5,7 +5,7 @@ function DiscussWrapper() {
     <section className="tc-discuss-style5">
       <div className="container">
         <div className="content">
-          <h2 className="fsz-40"> Student Feedback </h2>
+          <h2 className="fsz-40"> Students Feedback </h2>
         </div>
       </div>
     </section>
