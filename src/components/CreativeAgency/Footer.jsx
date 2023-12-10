@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
   return (
@@ -9,24 +9,35 @@ function Footer() {
             <div className="col-lg-5">
               <div className="logo-side">
                 <div className="logo th-80 mb-30">
-                  <img src="/home_5/assets/img/logo.png" alt="" className="lt_item" />
-                  <img src="/home_5/assets/img/eshilpalogo.png" alt="" className="dr_item" />
+                  <img
+                    src="/home_5/assets/img/logo.png"
+                    alt=""
+                    className="lt_item"
+                  />
+                  <img
+                    src="/home_5/assets/img/eshilpalogo.png"
+                    alt=""
+                    className="dr_item"
+                  />
                 </div>
                 <div className="text color-666">
                   <p className="mb-2">
                     Unlocking the Future with ICT and Robotics
                   </p>
-                  <p>
-
-                  </p>
+                  <p></p>
                 </div>
                 <div className="mail-card">
-                  <span className="icon"> <i className="fal fa-envelope-open"></i> </span>
+                  <span className="icon">
+                    {" "}
+                    <i className="fal fa-envelope-open"></i>{" "}
+                  </span>
                   <div className="cont">
                     <p className="color-666"> Support Email </p>
                     <ul className="links">
                       <li>
-                        <a href="mailto:prabuddha88herath@gmail.com">prabuddha88herath@gmail.com</a>
+                        <a href="mailto:prabuddha88herath@gmail.com">
+                          prabuddha88herath@gmail.com
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -38,10 +49,22 @@ function Footer() {
               <div className="item mt-5 mt-lg-0">
                 <h5 className="sub-title fsz-24 mb-40">Learn</h5>
                 <ul className="links">
-                  <li> <a href="#"> ICT </a> </li>
-                  <li> <a href="#"> PROGRAMMING </a> </li>
-                  <li> <a href="#"> APP DEVELOPMENT </a> </li>
-                  <li> <a href="#">ROBOTICS </a> </li>
+                  <li>
+                    {" "}
+                    <a href="#"> ICT </a>{" "}
+                  </li>
+                  <li>
+                    {" "}
+                    <a href="#"> PROGRAMMING </a>{" "}
+                  </li>
+                  <li>
+                    {" "}
+                    <a href="#"> APP DEVELOPMENT </a>{" "}
+                  </li>
+                  <li>
+                    {" "}
+                    <a href="#">ROBOTICS </a>{" "}
+                  </li>
                 </ul>
               </div>
             </div>
@@ -49,9 +72,20 @@ function Footer() {
               <div className="item mt-5 mt-lg-0">
                 <h5 className="sub-title fsz-24 mb-40"> Social Connect </h5>
                 <ul className="links">
-                  <li> <a href="https://www.facebook.com/ro.herath?mibextid=ZbWKwL"> <i className="fab fa-facebook-f me-2"></i> Facebook </a> </li>
-                  <li> <a href="https://youtube.com/@prabuddhaherath88?si=b3xXLVXwoNaMX7Aj"> <i className="fab fa-youtube me-2"></i> Youtube </a> </li>
-
+                  <li>
+                    {" "}
+                    <a href="https://www.facebook.com/ro.herath?mibextid=ZbWKwL">
+                      {" "}
+                      <i className="fab fa-facebook-f me-2"></i> Facebook{" "}
+                    </a>{" "}
+                  </li>
+                  <li>
+                    {" "}
+                    <a href="https://youtube.com/@prabuddhaherath88?si=b3xXLVXwoNaMX7Aj">
+                      {" "}
+                      <i className="fab fa-youtube me-2"></i> Youtube{" "}
+                    </a>{" "}
+                  </li>
                 </ul>
               </div>
             </div>
@@ -60,7 +94,16 @@ function Footer() {
         <div className="foot">
           <div className="row">
             <div className="col-lg-4">
-              <p> © 2023 - <a href="https://www.pikdev.com/" className="fw-bold text-uppercase hover-orange1">Powered By PIKDEV </a> </p>
+              <p>
+                {" "}
+                © {new Date(Date.now()).getFullYear().toString()} -{" "}
+                <a
+                  href="https://www.pikdev.com/"
+                  className="fw-bold text-uppercase hover-orange1"
+                >
+                  Powered By PIKDEV{" "}
+                </a>{" "}
+              </p>
             </div>
             <div className="col-lg-8 text-lg-end mt-4 mt-lg-0">
               <div className="foot-links">
@@ -78,7 +121,7 @@ function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
