@@ -64,14 +64,14 @@ function Footer() {
             </div>
             <div className="col-lg-8 text-lg-end mt-4 mt-lg-0">
               <div className="foot-links">
-                <a href="#"> Home </a>
-                <a href="#"> About </a>
-                <a href="#">Learning </a>
-                <a href="#"> Works </a>
-                <a href="#"> Qualifications </a>
-                <a href="#"> Classes </a>
-                <a href="#"> Collaborations </a>
-                <a href="#"> News </a>
+                <a href="/"> Home </a>
+                <a href="#about"> About </a>
+                <a href="#learnings">Learning </a>
+                <a href="#works"> Works </a>
+                <a href="#qualifications"> Qualifications </a>
+                <a href="#classes"> Classes </a>
+                <a href="#collaborations"> Collaborations </a>
+                <a href="#news"> News </a>
               </div>
             </div>
           </div>

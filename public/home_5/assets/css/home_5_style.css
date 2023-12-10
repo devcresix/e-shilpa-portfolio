@@ -900,6 +900,13 @@
   margin-left: 5px;
 }
 
+.highlight {
+  color: #e46027; /* Set your desired highlight color */
+  font-size: 25px;
+  font-weight: bold; /* Optionally, you can make the text bold or apply other styles */
+}
+
+
 
 
 

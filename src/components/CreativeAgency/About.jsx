@@ -45,10 +45,16 @@ function About() {
                 {" "}
                 Unlocking the Future with ICT and Robotics
               </h2>
-              <div className="text fsz-16 color-666 mb-50">
-                Cultivate innovation with our ICT and robotics education
-                services. We empower students to embrace technology, fostering
-                creativity and problem-solving for tomorrow's leaders.
+              <div className="text fsz-16 color-666 mb-50" style={{ textAlign: 'justify' }}>
+                <span className="highlight">I am Prabuddha Herath,</span> a seasoned professional
+                with extensive expertise in ICT and modern robotic technology.
+                With a rich background in these domains, I offer cutting-edge ICT and robotics
+                education services to cultivate innovation. My mission is to empower students by
+                instilling a deep appreciation for technology, fostering creativity, and nurturing
+                problem-solving skills. Together, we pave the way for tomorrow's leaders, equipping
+                them with the knowledge and tools needed to thrive in an ever-evolving technological
+                landscape. Join me on a journey of learning and discovery, where we shape the future
+                through transformative education.
               </div>
               <a
                 href="#"
