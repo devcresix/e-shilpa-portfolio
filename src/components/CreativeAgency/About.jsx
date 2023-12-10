@@ -39,7 +39,7 @@ function About() {
             <div className="info ps-lg-5 js-splittext-lines">
               <p className="fsz-14 text-uppercase color-666 mb-20">
                 {" "}
-                About Me{" "}
+                About Us{" "}
               </p>
               <h2 className="fsz-50 mb-40">
                 {" "}
@@ -49,7 +49,7 @@ function About() {
                 className="text fsz-16 color-666 mb-50"
                 style={{ textAlign: "justify" }}
               >
-                <span className="highlight">I am Prabuddha Herath,</span> a
+                <span className="highlight">Prabuddha Herath,</span> a
                 experienced professional in ICT and modern robotic technology.
                 With a rich background in these domains, I offer cutting-edge
                 ICT and robotics education services to cultivate innovation. My
