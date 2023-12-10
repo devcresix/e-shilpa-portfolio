@@ -3,10 +3,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <nav
-      className="navbar navbar-expand-lg navbar-dark tc-navbar-style5"
-
-    >
+    <nav className="navbar navbar-expand-lg navbar-dark tc-navbar-style5">
       <div className="container">
         <a className="navbar-brand" href="#">
           <img
@@ -72,7 +69,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          <div className="button_su border-0">
+          {/* <div className="button_su border-0">
             <span className="su_button_circle bg-orange1 desplode-circle"></span>
             <Link
               href="/inner_pages/page_contact"
@@ -83,7 +80,7 @@ function Navbar() {
                 <h>Start Project</h>
               </span>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>

@@ -86,6 +86,13 @@ function Footer() {
                       <i className="fab fa-youtube me-2"></i> Youtube{" "}
                     </a>{" "}
                   </li>
+                  <li>
+                    {" "}
+                    <a href="https://wa.me/94705700790">
+                      {" "}
+                      <i className="fab fa-whatsapp me-2"></i> Whatsapp{" "}
+                    </a>{" "}
+                  </li>
                 </ul>
               </div>
             </div>
