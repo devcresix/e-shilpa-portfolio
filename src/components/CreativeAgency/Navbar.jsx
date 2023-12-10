@@ -76,11 +76,11 @@ function Navbar() {
             <span className="su_button_circle bg-orange1 desplode-circle"></span>
             <Link
               href="/inner_pages/page_contact"
-              className="butn text-capitalize border-0 button_su_inner bg-000 py-3 px-5"
+              className="butn text-capitalize border-0 button_su_inner bg-000 py-2 px-5 d-flex justify-content-center align-items-center "
             >
               <span className="button_text_container fsz-14 text-white">
                 {" "}
-                Start Project <i className="ti-arrow-top-right ms-1"></i>
+                <h>Start Project</h>
               </span>
             </Link>
           </div>
