@@ -3,7 +3,6 @@ import React from "react";
 function Header() {
   return (
     <header className="tc-header-style5">
-
       <div className="container">
         <div className="row">
           <div className="col-lg-9">
@@ -18,7 +17,7 @@ function Header() {
               <div className="btm-info">
                 <p className="fsz-24">
                   {" "}
-                  Login with our <br /> Learning Management System
+                  Login with our <br /> Learning Management System (LMS)
                 </p>
                 <span className="line"></span>
                 <div className="button_su border-0">

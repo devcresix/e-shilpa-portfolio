@@ -8,7 +8,7 @@
   {
     "id": 2,
     "host": "",
-    "award": "Mechanical Engineer (CEAT Privat Limited)",
+    "award": "Mechanical Engineer (CEAT Private Limited)",
     "year": "2022-2023"
   },
   {
@@ -20,13 +20,13 @@
   {
     "id": 4,
     "host": "",
-    "award": "Science For Technology (Chemestry) I",
+    "award": "Science For Technology (Chemistry) I",
     "year": "ISBN 978-624-93104-1-4"
   },
   {
     "id": 5,
     "host": "",
-    "award": "Science For Technology (Chemestry) II",
+    "award": "Science For Technology (Chemistry) II",
     "year": "ISBN 978-624-93104-0-7"
   }
 ]

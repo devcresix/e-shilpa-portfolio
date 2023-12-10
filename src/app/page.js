@@ -22,7 +22,7 @@ import Blog from "@/components/CreativeAgency/Blog";
 import Footer from "@/components/CreativeAgency/Footer";
 
 export const metadata = {
-  title: "Swak - Creative Agency",
+  title: "E-Shilpa - Prabuddha Herath",
   icons: {
     icon: "/home_5/assets/img/fav.png",
     shortcut: "/home_5/assets/img/fav.png",
@@ -38,6 +38,20 @@ export const metadata = {
       "/home_5/assets/css/home_5_style.css",
     ]),
   },
+  keywords: [
+    "E-Shilpa",
+    "Prabuddha Herath",
+    "E-Shilpa - Prabuddha Herath",
+    "E-Shilpa - Prabuddha Herath",
+    "E-Shilpa - Prabuddha Herath",
+    "ICT",
+    "Robotics",
+    "O/L",
+    "Ordinary Level",
+    "GCE O/L",
+    "O/L ICT",
+    "O/L Robotics",
+  ],
 };
 
 export default function Home5() {
